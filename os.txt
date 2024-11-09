@@ -10,5 +10,5 @@ for root, dirs, files in os.walk(directory):
     formatted_time = time.strftime("%d.%m.%Y %H:%M", time.localtime(filetime))
     filesize = os.path.getsize(filepath)
     parent_dir = os.path.dirname(file)
-    print(f'Обнаружен файл: {file}, Путь: {filepath}, Размер: {filesize} байт, Время изменения: {formatted_time}, Родительская директория: {parent_dir}')
+   print(f'РћР±РЅР°СЂСѓР¶РµРЅ С„Р°Р№Р»: {file}, РџСѓС‚СЊ: {filepath}, Р Р°Р·РјРµСЂ: {filesize} Р±Р°Р№С‚, Р’СЂРµРјСЏ РёР·РјРµРЅРµРЅРёСЏ: {formatted_time}, Р РѕРґРёС‚РµР»СЊСЃРєР°СЏ РґРёСЂРµРєС‚РѕСЂРёСЏ: {parent_dir}')
 
